@@ -14,6 +14,7 @@ import {
   Table2,
 } from "lucide-react";
 import { TEN_POINT_SCALE } from "@/lib/calculator-utils";
+import { AdsterraLeaderboard, AdsterraRectangle } from "@/components/site/adsterra-ad";
 
 export const FAQ_ITEMS = [
   {
@@ -219,6 +220,9 @@ export function SeoContent() {
         </ol>
       </section>
 
+      {/* Ad: in-content leaderboard after the how-to guide */}
+      <AdsterraLeaderboard />
+
       {/* Grading scale */}
       <section id="grading-scale" aria-labelledby="grading-scale-heading" className="scroll-mt-24">
         <div className="flex items-center gap-2 text-emerald-700 mb-3">
@@ -327,6 +331,9 @@ export function SeoContent() {
           happens automatically.
         </p>
       </section>
+
+      {/* Ad: in-content 300x250 rectangle after the conversion guide */}
+      <AdsterraRectangle />
 
       {/* Why use */}
       <section id="why-us" aria-labelledby="why-us-heading" className="scroll-mt-24">

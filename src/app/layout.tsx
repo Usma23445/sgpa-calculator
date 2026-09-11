@@ -3,6 +3,7 @@ import Script from "next/script";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "@/components/ui/toaster";
+import { AnchorAd } from "@/components/site/adsterra-ad";
 
 const GA_MEASUREMENT_ID = "G-3LJG14PZ24";
 
@@ -103,6 +104,8 @@ export default function RootLayout({
 
         {children}
         <Toaster />
+        {/* Sticky anchor ad (bottom of viewport, closable) */}
+        <AnchorAd />
       </body>
     </html>
   );

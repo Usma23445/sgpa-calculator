@@ -1,6 +1,6 @@
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
-import { AdSlot } from "@/components/site/adsterra-ad";
+import { AdSlot, AdsterraRectangle } from "@/components/site/adsterra-ad";
 import { CalculatorSuite } from "@/components/calculators/calculator-suite";
 import { SeoContent } from "@/components/site/seo-content";
 import { AboutSection } from "@/components/site/about-section";
@@ -79,6 +79,11 @@ export default function Home() {
             </div>
           </div>
         </section>
+
+        {/* Ad: 300x250 medium rectangle — visible on desktop AND mobile */}
+        <div className="border-b bg-muted/20">
+          <AdsterraRectangle className="py-8" />
+        </div>
 
         {/* Calculator suite */}
         <section id="calculators" aria-labelledby="calculators-heading" className="scroll-mt-24">
