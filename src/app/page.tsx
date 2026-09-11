@@ -1,5 +1,6 @@
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
+import { AdSlot } from "@/components/site/adsterra-ad";
 import { CalculatorSuite } from "@/components/calculators/calculator-suite";
 import { SeoContent } from "@/components/site/seo-content";
 import { AboutSection } from "@/components/site/about-section";
@@ -24,6 +25,9 @@ export default function Home() {
       <SiteHeader />
 
       <main className="flex-1">
+        {/* Ad: top leaderboard — above the fold, highest viewability */}
+        <AdSlot eager className="pt-4" />
+
         {/* Hero */}
         <section
           aria-labelledby="hero-heading"
@@ -89,6 +93,8 @@ export default function Home() {
               </p>
             </div>
             <CalculatorSuite />
+            {/* Ad: right below the calculator — users stare at this zone while checking results */}
+            <AdSlot className="mt-10" />
           </div>
         </section>
 
@@ -103,6 +109,9 @@ export default function Home() {
           </div>
         </section>
 
+        {/* Ad: mid-content, between guides and about section */}
+        <AdSlot className="my-2" />
+
         {/* About / Contact / Privacy */}
         <section aria-label="About, contact and privacy information">
           <div className="mx-auto max-w-6xl space-y-16 px-4 py-12 sm:px-6 sm:py-16">
@@ -111,6 +120,8 @@ export default function Home() {
             <PrivacySection />
           </div>
         </section>
+        {/* Ad: bottom of page, right above the footer */}
+        <AdSlot className="mb-10" />
       </main>
 
       <SiteFooter />
