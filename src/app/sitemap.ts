@@ -3,7 +3,7 @@ import type { MetadataRoute } from "next";
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: "https://sgpacalculator.vercel.app",
+      url: "https://sgpacalculators.vercel.app",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,

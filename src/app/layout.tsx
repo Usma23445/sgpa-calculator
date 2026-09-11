@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-const SITE_URL = "https://sgpacalculator.vercel.app";
+const SITE_URL = "https://sgpacalculators.vercel.app";
 const SITE_TITLE = "SGPA Calculator — Free All-in-One SGPA, CGPA & Percentage Calculator";
 const SITE_DESCRIPTION =
   "Free SGPA calculator for students. Calculate Semester GPA instantly, convert SGPA to CGPA and percentage with official university formulas (SPPU, VTU, AKTU, GTU, CBSE), check the 10-point grading scale, and compute grades from marks — all in one fast, private, mobile-friendly tool.";

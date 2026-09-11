@@ -127,7 +127,7 @@ export default function Home() {
                 name: "SGPA Calculator — All-in-One GPA Tool Suite",
                 applicationCategory: "EducationalApplication",
                 operatingSystem: "Any (Web Browser)",
-                url: "https://sgpacalculator.vercel.app/",
+                url: "https://sgpacalculators.vercel.app/",
                 description:
                   "Free online SGPA calculator with CGPA, 4.0-scale GPA, SGPA-to-percentage conversion and marks-to-grade tools for students.",
                 offers: { "@type": "Offer", price: "0", priceCurrency: "USD" },
@@ -144,7 +144,7 @@ export default function Home() {
                 "@type": "Organization",
                 name: "SGPACalculator",
                 email: CONTACT_EMAIL,
-                url: "https://sgpacalculator.vercel.app/",
+                url: "https://sgpacalculators.vercel.app/",
               },
             ],
           }),
